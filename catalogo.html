@@ -45,14 +45,6 @@
             margin-left: auto;
         }
         
-        .grid-footer {
-            display: grid;
-            padding: 20px;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 20px;
-            margin-top: 20px;
-            background-color: #241616;
-        }
 
         h1{
             padding: 10px;
@@ -206,11 +198,27 @@
         <h5>No Dudes en Contactarnos Para Realizar Tu Compra</h5>
     </div>
     <div>
-        <footer class="grid-footer">
-            <h3 class="grid-column: 1">Contactanos: <a href="https://api.whatsapp.com/send/?phone=2645138842&text&type=phone_number&app_absent=0" id="foot">📞 Teléfono: +54 2645138842</a></h3>
-            <h3 class="grid-column: 2">Siguenos: <a href="https://www.instagram.com/tamar.indumentaria/?hl=es-la" id="foot">📲 Instagram: @tamar_indumentaria</a></h3>
-            <img src="img/1000_F_486192956_7AbG7PGLR7AEVRR7DMBTBOFQqoF7d6zr.jpg" alt="iconos" width="150" height="50" class="grid-column: 3" id="iconos"></img>
-            <h3 class="grid-column: 4">© Tamar Indumentaria, Todo los derechos reservados</h3>
+        <footer class="container-fluid text-white py-4" style="background-color: #241616;"></footer>
+            <div class="row text-center text-md-start">
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <h3>Contactanos</h3>
+                    <a href="https://api.whatsapp.com/send/?phone=2645138842&text&type=phone_number&app_absent=0" class="text-white" id="foot">
+                        📞 Teléfono: +54 2645138842
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <h3>Síguenos</h3>
+                    <a href="https://www.instagram.com/tamar.indumentaria/?hl=es-la" class="text-white" id="foot">
+                        📲 Instagram: @tamar_indumentaria
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <img src="img/1000_F_486192956_7AbG7PGLR7AEVRR7DMBTBOFQqoF7d6zr.jpg" alt="iconos" width="150" height="50" id="iconos">
+                </div>
+                <div class="col-12 col-md-3">
+                    <h3>&copy; Tamar Indumentaria, Todos los derechos reservados</h3>
+                </div>
+            </div>
         </footer>
     </div>
 
